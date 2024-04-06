@@ -18,11 +18,11 @@ class NavigationBarWidget extends StatelessWidget {
           const Row(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
-              _NavBarItem(title: 'Episodes'),
+              _NavBarItem(title: 'Inicio'),
               SizedBox(
                 width: 60,
               ),
-              _NavBarItem(title: 'About')
+              _NavBarItem(title: 'Jóvenes')
             ],
           ),
         ],
