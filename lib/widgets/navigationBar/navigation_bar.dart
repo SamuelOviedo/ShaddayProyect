@@ -22,7 +22,10 @@ class NavigationBarWidget extends StatelessWidget {
               SizedBox(
                 width: 60,
               ),
-              _NavBarItem(title: 'Jóvenes')
+              _NavBarItem(title: 'Jóvenes'),
+              SizedBox(
+                width: 60,
+              ),
             ],
           ),
         ],
