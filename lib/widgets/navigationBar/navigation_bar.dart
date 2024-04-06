@@ -7,6 +7,7 @@ class NavigationBarWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 100,
+      color: Colors.grey,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
